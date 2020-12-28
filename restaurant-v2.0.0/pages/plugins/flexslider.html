@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- ===============================================-->
+    <!--    Document Title-->
+    <!-- ===============================================-->
+    <title>Restaurant</title>
+
+
+    <!-- ===============================================-->
+    <!--    Favicons-->
+    <!-- ===============================================-->
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicons/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/img/favicons/favicon.ico">
+    <link rel="manifest" href="../assets/img/favicons/manifest.json">
+    <meta name="msapplication-TileImage" content="../assets/img/favicons/mstile-150x150.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <!-- ===============================================-->
+    <!--    Stylesheets-->
+    <!-- ===============================================-->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    <link href="../assets/lib/loaders.css/loaders.min.css" rel="stylesheet">
+    <link href="../assets/lib/prismjs/prism-okaidia.css" rel="stylesheet">
+    <link href="../assets/lib/flexslider/flexslider.css" rel="stylesheet">
+    <link href="../assets/css/theme.css" rel="stylesheet">
+
+  </head>
+
+
+  <body>
+
+    <!-- ===============================================-->
+    <!--    Main Content-->
+    <!-- ===============================================-->
+    <main class="main" id="top">
+      <!-- ============================================-->
+      <!-- Preloader ==================================-->
+      <div class="preloader p-0" id="preloader">
+        <div class="loader d-flex flex-column align-items-center"><img src="../assets/img/illustrations/egg.gif" alt="" /></div>
+      </div>
+      <!-- ============================================-->
+      <!-- End of Preloader ===========================--><a class="bottom-to-top rounded-soft" href="#top" data-fancyscroll><span class="fas fa-angle-up lg" data-fa-transform="down-2"></span></a>
+      <!--+navbar.navbar-expand-md.navbar-dark.bg-dark.sticky-top.font-weight-semi-bold.fs--1-->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+        <div class="container"><a class="navbar-brand" href="../index.html"><img class="pb-1" src="../assets/img/logo.png" alt="logo" /></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item dropdown dropdown-menu-on-hover pr-4"><a class="nav-link dropdown-toggle" id="navbarDropdownHomes" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
+                <div class="dropdown-menu bg-black pt-0 pt-lg-3 bg-black border-0" aria-labelledby="navbarDropdownHomes"><a class="dropdown-item" href="../index.html">Header Static</a><a class="dropdown-item" href="../index-slider.html">Header Slider</a><a class="dropdown-item" href="../index-youtube.html">Youtube Background</a><a class="dropdown-item" href="../index-selfhosted.html">Self Hosted Video</a><a class="dropdown-item border-bottom-0" href="../index-rtl.html">RTL</a></div>
+              </li>
+              <li class="nav-item dropdown dropdown-menu-on-hover pr-4"><a class="nav-link dropdown-toggle" id="navbarDropdownPages" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+                <div class="dropdown-menu bg-black border-0 py-3" aria-labelledby="navbarDropdownPages"><a class="dropdown-item" href="../menu.html">Menu</a><a class="dropdown-item" href="../gallery.html">Gallery</a><a class="dropdown-item" href="../about.html">About</a><a class="dropdown-item border-bottom-0" href="../contact.html">Contact</a></div>
+              </li>
+              <li class="nav-item"><a class="nav-link pr-4" href="../index.html#menu">Menu</a></li>
+              <li class="nav-item dropdown dropdown-menu-on-hover pr-4"><a class="nav-link dropdown-toggle" id="navbarDropdownComponents" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Components</a>
+                <div class="dropdown-menu bg-black border-0 dropdown-menu-card" aria-labelledby="navbarDropdownComponents">
+                  <div class="card navbar-dropdown-col-4 bg-black">
+                    <div class="card-body p-0">
+                      <div class="row">
+                        <div class="col-6 col-md-auto">
+                          <div class="nav flex-column"><a class="dropdown-item" href="../components/alerts.html">Alerts</a><a class="dropdown-item" href="../components/background.html">Background</a><a class="dropdown-item" href="../components/badges.html">Badges</a><a class="dropdown-item" href="../components/breadcrumb.html">Breadcrumb</a><a class="dropdown-item" href="../components/buttons.html">Buttons</a><a class="dropdown-item" href="../components/cards.html">Cards</a><a class="dropdown-item" href="../components/carousel.html">Carousel</a>
+                          </div>
+                        </div>
+                        <div class="col-6 col-md-auto">
+                          <div class="nav flex-column"><a class="dropdown-item" href="../components/collapse.html">Collapse</a><a class="dropdown-item" href="../components/dropdowns.html">Dropdowns</a><a class="dropdown-item" href="../components/fancyscroll.html">Fancyscroll</a><a class="dropdown-item" href="../components/forms.html">Forms</a><a class="dropdown-item" href="../components/hoverbox.html">Hoverbox</a><a class="dropdown-item" href="../components/list-group.html">List group</a><a class="dropdown-item" href="../components/modals.html">Modals</a>
+                          </div>
+                        </div>
+                        <div class="col-6 col-md-auto">
+                          <div class="nav flex-column"><a class="dropdown-item" href="../components/media-object.html">Media object</a><a class="dropdown-item" href="../components/navs.html">Navs</a><a class="dropdown-item" href="../components/navbar.html">Navbar</a><a class="dropdown-item" href="../components/page-headers.html">Page headers</a><a class="dropdown-item" href="../components/pagination.html">Pagination</a><a class="dropdown-item" href="../components/popovers.html">Popovers</a><a class="dropdown-item" href="../components/progress.html">Progress</a>
+                          </div>
+                        </div>
+                        <div class="col-6 col-md-auto">
+                          <div class="nav flex-column"><a class="dropdown-item" href="../components/scrollspy.html">Scrollspy</a><a class="dropdown-item" href="../components/spinners.html">Spinners</a><a class="dropdown-item" href="../components/tables.html">Tables</a><a class="dropdown-item" href="../components/tabs.html">Tabs</a><a class="dropdown-item" href="../components/tooltips.html">Tooltips</a><a class="dropdown-item" href="../components/toasts.html">Toasts</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item dropdown dropdown-menu-on-hover pr-4"><a class="nav-link dropdown-toggle" id="navbarDropdownUtilities" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Utilities</a>
+                <div class="dropdown-menu bg-black border-0" aria-labelledby="navbarDropdownUtilities"><a class="dropdown-item" href="../utilities/borders.html">Borders</a><a class="dropdown-item" href="../utilities/clearfix.html">Clearfix</a><a class="dropdown-item" href="../utilities/close-icon.html">Close icon</a><a class="dropdown-item" href="../utilities/colors.html">Colors</a><a class="dropdown-item" href="../utilities/display.html">Display</a><a class="dropdown-item" href="../utilities/embed.html">Embed</a><a class="dropdown-item" href="../utilities/flex.html">Flex</a><a class="dropdown-item" href="../utilities/figures.html">Figures</a><a class="dropdown-item" href="../utilities/grid.html">Grid</a><a class="dropdown-item" href="../utilities/sizing.html">Sizing</a><a class="dropdown-item" href="../utilities/stretched-link.html">Stretched link</a><a class="dropdown-item" href="../utilities/spacing.html">Spacing</a><a class="dropdown-item" href="../utilities/typography.html">Typography</a><a class="dropdown-item" href="../utilities/vertical-align.html">Vertical align</a><a class="dropdown-item border-bottom-0" href="../utilities/visibility.html">Visibility</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown dropdown-menu-on-hover pr-4"><a class="nav-link dropdown-toggle" id="navbarDropdownPlugins" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plugins</a>
+                <div class="dropdown-menu bg-black border-0" aria-labelledby="navbarDropdownPlugins"><a class="dropdown-item" href="../plugins/fancytab.html">Fancytab</a><a class="dropdown-item" href="../plugins/flexslider.html">Flexslider</a><a class="dropdown-item" href="../plugins/owl-carousel.html">Owl carousel</a><a class="dropdown-item border-bottom-0" href="../plugins/fancybox.html">Fancybox</a>
+                </div>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto my-3 my-lg-0">
+              <li class="nav-item">
+                <button class="btn btn-outline-primary" type="button" data-toggle="modal" data-target="#reservation"><span class="d-none d-xl-inline">Make a</span>Reservation</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="modal fade" id="reservation" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content border-0">
+            <div class="bg-holder rounded-soft" style="background-image:url(../assets/img/food/pngfind.png);background-size:40%;background-position:top right; transform:none;">
+            </div>
+            <!--/.bg-holder-->
+
+            <form class="zform modal-body pb-0">
+              <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+              <div class="row">
+                <div class="border border-primary border-2x ml-5 rounded-soft"></div>
+                <div class="col-8">
+                  <h5 class="font-weight-bold mt-2">Make A<br>Reservation</h5>
+                </div>
+              </div>
+              <div class="row mt-4 ml-3 form-group">
+                <div class="col-lg-6 mb-3 mb-lg-0">
+                  <div class="input-with-icon">
+                    <select class="form-control text-base text-500 pl-4">
+                      <option>Time</option>
+                      <option>09:00 AM</option>
+                      <option>11:00 AM</option>
+                      <option>12:00 PM</option>
+                      <option>01:00 PM</option>
+                      <option>02:00 PM</option>
+                      <option>03:30 PM</option>
+                      <option>04:00 PM</option>
+                      <option>05:00 PM</option>
+                      <option>07:00 PM</option>
+                      <option>08:00 PM</option>
+                      <option>09:00 PM</option>
+                    </select><span class="position-absolute far fa-clock text-400 icon modal-time-icon"></span>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="input-with-icon">
+                    <input class="form-control icon-input" type="date" placeholder="DD/MM/YYYY" aria-label="date"><span class="position-absolute fas fa-calendar-day text-400 icon"></span>
+                  </div>
+                </div>
+              </div>
+              <div class="row form-group ml-3">
+                <div class="col-lg-6 mb-3 mb-lg-0">
+                  <input class="form-control" type="text" placeholder="Name">
+                </div>
+                <div class="col-lg-6">
+                  <input class="form-control" type="tel" placeholder="Phone">
+                </div>
+              </div>
+              <div class="row form-group ml-3">
+                <div class="col">
+                  <select class="form-control text-base text-500">
+                    <option>Person</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>10+</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row form-group ml-3">
+                <div class="col">
+                  <input class="form-control" type="email" placeholder="Email">
+                </div>
+              </div>
+              <div class="row justify-content-center bg-primary rounded-bottom" style="margin-left:-17px;margin-right:-17px;margin-bottom:-1px">
+                <div class="col-10 pt-3 pb-4">
+                  <p class="text-900">Apparently we had reached a great height in the atmos, for the sky was a dead black, and the stars had twinkle. By which lifts the light.</p>
+                  <input class="btn btn-light btn-block text-center mt-2" type="submit" value="Submit">
+                </div>
+              </div>
+              <div class="zform-feedback"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- ============================================-->
+      <!-- <section> begin ============================-->
+      <section class="bg-light">
+
+        <div class="container">
+          <div class="row mt-3">
+            <div class="col-lg-9 col-xxl-10">
+              <div class="card mb-3">
+                <div class="card-body shadow-sm">
+                  <h3>Flexslider</h3>
+                  <p class="mb-0">The best responsive slider. Period.</p><a class="btn btn-link btn-sm pl-0 mt-2" href="https://themewagon.gitlab.io/zion-flexslider" target="_blank">See Doc<span class="fas fa-chevron-right ml-1 fs--2"></span></a>
+                </div>
+              </div>
+              <div class="card mb-3">
+                <div class="card-body shadow-sm">
+                  <div class="card-header">
+                    <h5 class="mb-0">Example</h5>
+                  </div>
+                  <div class="card-body bg-light">
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="flexslider text-center">
+                          <ul class="slides">
+                            <li class="text-center">
+                              <div class="bg-holder overlay rounded" style="background-image:url(../assets/img/gallery/big/1.jpg);">
+                              </div>
+                              <!--/.bg-holder-->
+
+                              <div class="row align-items-center min-vh-50">
+                                <div class="col">
+                                  <h2 class="ls-1 text-white">We are smart</h2>
+                                </div>
+                              </div>
+                            </li>
+                            <li class="text-center">
+                              <div class="bg-holder overlay rounded" style="background-image:url(../assets/img/gallery/big/2.jpg);">
+                              </div>
+                              <!--/.bg-holder-->
+
+                              <div class="row align-items-center min-vh-50">
+                                <div class="col">
+                                  <h2 class="ls-1 text-white">We are awesome</h2>
+                                </div>
+                              </div>
+                            </li>
+                            <li class="text-center">
+                              <div class="bg-holder overlay rounded" style="background-image:url(../assets/img/gallery/big/3.jpg);">
+                              </div>
+                              <!--/.bg-holder-->
+
+                              <div class="row align-items-center min-vh-50">
+                                <div class="col">
+                                  <h2 class="ls-1 text-white">Take a breath</h2>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <pre class="rounded mt-2"><code class="language-html">&lt;div class=&quot;flexslider text-center&quot;&gt;
+  &lt;ul class=&quot;slides&quot;&gt;
+    &lt;li class=&quot;text-center&quot;&gt;
+      &lt;div class=&quot;bg-holder overlay rounded&quot; style=&quot;background-image:url(../assets/img/gallery/big/1.jpg);&quot;&gt;
+      &lt;/div&gt; &lt;!--/.bg-holder--&gt;
+      &lt;div class=&quot;row align-items-center min-vh-50&quot;&gt;
+        &lt;div class=&quot;col&quot;&gt;
+          &lt;h2 class=&quot;ls-1 text-white&quot;&gt;We are smart&lt;/h2&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;text-center&quot;&gt;
+      &lt;div class=&quot;bg-holder overlay rounded&quot; style=&quot;background-image:url(../assets/img/gallery/big/2.jpg);&quot;&gt;
+      &lt;/div&gt; &lt;!--/.bg-holder--&gt;
+      &lt;div class=&quot;row align-items-center min-vh-50&quot;&gt;
+        &lt;div class=&quot;col&quot;&gt;
+          &lt;h2 class=&quot;ls-1 text-white&quot;&gt;We are awesome&lt;/h2&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;text-center&quot;&gt;
+      &lt;div class=&quot;bg-holder overlay rounded&quot; style=&quot;background-image:url(../assets/img/gallery/big/3.jpg);&quot;&gt;
+      &lt;/div&gt; &lt;!--/.bg-holder--&gt;
+      &lt;div class=&quot;row align-items-center min-vh-50&quot;&gt;
+        &lt;div class=&quot;col&quot;&gt;
+          &lt;h2 class=&quot;ls-1 text-white&quot;&gt;Take a breath&lt;/h2&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;</code></pre>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col d-none d-lg-block">
+              <ul class="nav flex-column sticky-kit mt-6 accordion font-weight-semi-bold" id="sidebar-nav">
+                <li class="nav-item"><a class="nav-link text-600 collapsed" data-toggle="collapse" href="#documentation" role="button" aria-expanded="false" aria-controls="documentation">Documentation</a>
+                  <div class="nav collapse pl-3" id="documentation" data-parent="#sidebar-nav"><a class="nav-link w-100 py-0 text-600" href="../documentation/getting-started.html">Getting started</a><a class="nav-link w-100 py-0 text-600" href="../documentation/file-structure.html">File structure</a><a class="nav-link w-100 py-0 text-600" href="../documentation/customization.html">Customization</a><a class="nav-link w-100 py-0 text-600" href="../documentation/gulp.html">Gulp</a><a class="nav-link w-100 py-0 text-600" href="../documentation/RTL.html">RTL</a><a class="nav-link w-100 py-0 text-600" href="../documentation/plugins.html">Plugins</a>
+                  </div>
+                </li>
+                <li class="nav-item"><a class="nav-link text-600 collapsed" data-toggle="collapse" href="#components" role="button" aria-expanded="false" aria-controls="components">Components</a>
+                  <div class="nav collapse pl-3" id="components" data-parent="#sidebar-nav"><a class="nav-link w-100 py-0 text-600" href="../components/alerts.html">Alerts</a><a class="nav-link w-100 py-0 text-600" href="../components/background.html">Background</a><a class="nav-link w-100 py-0 text-600" href="../components/badges.html">Badges</a><a class="nav-link w-100 py-0 text-600" href="../components/breadcrumb.html">Breadcrumb</a><a class="nav-link w-100 py-0 text-600" href="../components/buttons.html">Buttons</a><a class="nav-link w-100 py-0 text-600" href="../components/cards.html">Cards</a><a class="nav-link w-100 py-0 text-600" href="../components/carousel.html">Carousel</a><a class="nav-link w-100 py-0 text-600" href="../components/collapse.html">Collapse</a><a class="nav-link w-100 py-0 text-600" href="../components/dropdowns.html">Dropdowns</a><a class="nav-link w-100 py-0 text-600" href="../components/fancyscroll.html">Fancyscroll</a><a class="nav-link w-100 py-0 text-600" href="../components/forms.html">Forms</a><a class="nav-link w-100 py-0 text-600" href="../components/hoverbox.html">Hoverbox</a><a class="nav-link w-100 py-0 text-600" href="../components/list-group.html">List group</a><a class="nav-link w-100 py-0 text-600" href="../components/modals.html">Modals</a><a class="nav-link w-100 py-0 text-600" href="../components/media-object.html">Media object</a><a class="nav-link w-100 py-0 text-600" href="../components/navs.html">Navs</a><a class="nav-link w-100 py-0 text-600" href="../components/navbar.html">Navbar</a><a class="nav-link w-100 py-0 text-600" href="../components/page-headers.html">Page headers</a><a class="nav-link w-100 py-0 text-600" href="../components/pagination.html">Pagination</a><a class="nav-link w-100 py-0 text-600" href="../components/popovers.html">Popovers</a><a class="nav-link w-100 py-0 text-600" href="../components/progress.html">Progress</a><a class="nav-link w-100 py-0 text-600" href="../components/scrollspy.html">Scrollspy</a><a class="nav-link w-100 py-0 text-600" href="../components/spinners.html">Spinners</a><a class="nav-link w-100 py-0 text-600" href="../components/tables.html">Tables</a><a class="nav-link w-100 py-0 text-600" href="../components/tabs.html">Tabs</a><a class="nav-link w-100 py-0 text-600" href="../components/tooltips.html">Tooltips</a><a class="nav-link w-100 py-0 text-600" href="../components/toasts.html">Toasts</a>
+                  </div>
+                </li>
+                <li class="nav-item"><a class="nav-link text-600 collapsed" data-toggle="collapse" href="#utilities" role="button" aria-expanded="false" aria-controls="utilities">Utilities</a>
+                  <div class="nav collapse pl-3" id="utilities" data-parent="#sidebar-nav"><a class="nav-link w-100 py-0 text-600" href="../utilities/borders.html">Borders</a><a class="nav-link w-100 py-0 text-600" href="../utilities/clearfix.html">Clearfix</a><a class="nav-link w-100 py-0 text-600" href="../utilities/close-icon.html">Close icon</a><a class="nav-link w-100 py-0 text-600" href="../utilities/colors.html">Colors</a><a class="nav-link w-100 py-0 text-600" href="../utilities/display.html">Display</a><a class="nav-link w-100 py-0 text-600" href="../utilities/embed.html">Embed</a><a class="nav-link w-100 py-0 text-600" href="../utilities/flex.html">Flex</a><a class="nav-link w-100 py-0 text-600" href="../utilities/figures.html">Figures</a><a class="nav-link w-100 py-0 text-600" href="../utilities/grid.html">Grid</a><a class="nav-link w-100 py-0 text-600" href="../utilities/sizing.html">Sizing</a><a class="nav-link w-100 py-0 text-600" href="../utilities/stretched-link.html">Stretched link</a><a class="nav-link w-100 py-0 text-600" href="../utilities/spacing.html">Spacing</a><a class="nav-link w-100 py-0 text-600" href="../utilities/typography.html">Typography</a><a class="nav-link w-100 py-0 text-600" href="../utilities/vertical-align.html">Vertical align</a><a class="nav-link w-100 py-0 text-600" href="../utilities/visibility.html">Visibility</a>
+                  </div>
+                </li>
+                <li class="nav-item"><a class="nav-link text-info" data-toggle="collapse" href="#plugins" role="button" aria-expanded="true" aria-controls="plugins">Plugins</a>
+                  <div class="nav collapse pl-3 show" id="plugins" data-parent="#sidebar-nav"><a class="nav-link w-100 py-0 text-600" href="../plugins/fancytab.html">Fancytab</a><a class="nav-link w-100 py-0 text-info" href="../plugins/flexslider.html">Flexslider</a><a class="nav-link w-100 py-0 text-600" href="../plugins/owl-carousel.html">Owl carousel</a><a class="nav-link w-100 py-0 text-600" href="../plugins/fancybox.html">Fancybox</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- end of .container-->
+
+      </section>
+      <!-- <section> close ============================-->
+      <!-- ============================================-->
+
+
+    </main>
+    <!-- ===============================================-->
+    <!--    End of Main Content-->
+    <!-- ===============================================-->
+
+
+
+
+    <!-- ===============================================-->
+    <!--    JavaScripts-->
+    <!-- ===============================================-->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/popper.min.js"></script>
+    <script src="../assets/js/bootstrap.js"></script>
+    <script src="../assets/js/plugins.js"></script>
+    <script src="../assets/lib/is/is.min.js"></script>
+    <script src="../assets/lib/stickyfilljs/stickyfill.min.js"></script>
+    <script src="../assets/lib/sticky-kit/sticky-kit.min.js"></script>
+    <script src="../assets/lib/loaders.css/loaders.css.js"></script>
+    <script src="../assets/lib/prismjs/prism.js"></script>
+    <script src="../assets/lib/flexslider/jquery.flexslider-min.js"></script>
+    <script src="../assets/js/theme.js"></script>
+
+  </body>
+
+</html>
